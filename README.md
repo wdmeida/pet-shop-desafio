@@ -14,7 +14,7 @@ aleatórios para a Pet Shop.
 
 ## Solução
 
-Para a soluçaõ, foram desenvolvidos uma API e um projeto Frontend para consumir os dados. 
+Para a solução, foram desenvolvidos uma API e um projeto Frontend para consumir os dados. 
 
 ### Tecnologias utilizadas na API:
 * [Ruby on Rails 5](http://rubyonrails.org/)

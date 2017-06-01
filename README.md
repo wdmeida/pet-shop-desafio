@@ -31,7 +31,7 @@ Para a soluçaõ, foram desenvolvidos uma API e um projeto Frontend para consumi
 
 Para executar os projetos são necessários os seguintes requisitos:
 - Ruby 2.3.3 - [Instalação](https://gorails.com/setup/ubuntu/14.04#ruby)
-- Rails 5.0.2 - [Instalação](https://gorails.com/setup/ubuntu/14.04#rails)
+- Rails 5.0.3 - [Instalação](https://gorails.com/setup/ubuntu/14.04#rails)
 - Node.js - [Instalação](https://nodejs.org/en/download/package-manager/)
 - NPM - [Instalação](https://docs.npmjs.com/getting-started/installing-node)
 
@@ -39,21 +39,27 @@ Para executar os projetos são necessários os seguintes requisitos:
 
 1. Pelo terminal, entre no diretório 'pet_shop_api'
 2. Instale as depêndencias necessárias:
-  ```# bundle install```
+
+  ```$ bundle install```
 3. Crie a base de dados e definas as configurações iniciais do projeto executando as seguites tasks:
-  ```# rake dev:setup dev:initial_settings```
+
+  ```$ rake dev:setup dev:initial_settings```
 4. Inicie a aplicação, lembrando de deixar o terminal aberto para que a API fique em execução:
-  ```# rails server```
+
+  ```$ rails server```
 
 #### Executando os testes
 
 Caso queira executar os testes da API, basta, no diretório raiz da mesma ('pet_shop_api'), executar o seguinte comando:
+
 ```bundle exec rspec -fd```
 
 ### Executando o Frontend React
 
 1. Pelo terminal, entre no diretório 'pet-shop-front'
 2. Instale as depêndencias necessárias:
-  ```# npm install```
+
+  ```$ npm install```
 3. Inicie a aplicação, lembrando de deixar o terminal aberto para que a API fique em execução:
-  ```# npm run dev```
+
+  ```$ npm run dev```

@@ -63,3 +63,7 @@ Caso queira executar os testes da API, basta, no diretório raiz da mesma ('pet_
 3. Inicie a aplicação, lembrando de deixar o terminal aberto para que a API fique em execução:
 
   ```$ npm run dev```
+
+## Considerações adicionais
+
+* Os filtros de pesquisa na API foram definidos utilizando a gem Ransack, porém não foram utilizado no App Frontend porque a filtragem foi feita diretamente no mesmo, o que também foi aplicado na páginação das informações retornadas pela API.

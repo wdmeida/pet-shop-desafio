@@ -4,7 +4,7 @@
   "description": "Projeto frontend desenvolvido como teste para a vaga de Full Stack Developer na Ionatec",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors --inline --hot",
+    "dev": "webpack-dev-server --progress --colors --inline --hot --open",
     "production": "webpack --progress -p"
   },
   "author": "Wagner Almeida",

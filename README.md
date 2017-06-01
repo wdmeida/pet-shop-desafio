@@ -38,12 +38,15 @@ Para executar os projetos são necessários os seguintes requisitos:
 ### Executando a API
 
 1. Pelo terminal, entre no diretório 'pet_shop_api'
-2. Instale as depêndencias necessárias:
+
+2. Instale as depêndencias necessárias: 
 
   ```$ bundle install```
+  
 3. Crie a base de dados e definas as configurações iniciais do projeto executando as seguites tasks:
 
   ```$ rake dev:setup dev:initial_settings```
+  
 4. Inicie a aplicação, lembrando de deixar o terminal aberto para que a API fique em execução:
 
   ```$ rails server```
@@ -52,17 +55,24 @@ Para executar os projetos são necessários os seguintes requisitos:
 
 Caso queira executar os testes da API, basta, no diretório raiz da mesma ('pet_shop_api'), executar o seguinte comando:
 
-```bundle exec rspec -fd```
+  ```bundle exec rspec -fd```
+
 
 ### Executando o Frontend React
 
 1. Pelo terminal, entre no diretório 'pet-shop-front'
+
 2. Instale as depêndencias necessárias:
 
   ```$ npm install```
+
 3. Inicie a aplicação, lembrando de deixar o terminal aberto para que a API fique em execução:
 
   ```$ npm run dev```
+ 
+4. Caso o navegador não inicialize automaticamente, abra o mesmo e acesse aplicação pelo endereço:
+
+  ```http://localhost:4200```
 
 ## Considerações adicionais
 

@@ -51,7 +51,7 @@ Para executar os projetos são necessários os seguintes requisitos:
 #### Executando os testes
 
 * Caso queira executar os testes da API, basta, no diretório raiz da mesma ('pet_shop_api'), executar o seguinte comando:
-  ```bundle exec rspec -fd```
+  ```$ bundle exec rspec -fd```
 
 
 ### Executando o Frontend React
